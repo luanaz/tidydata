@@ -13,18 +13,18 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The original data is mainly seperated into two parts, train data(in the "train" folder) and test data(in the "test" folder). 
 
 In folder train, three files are concidered as the data source
-X_train.txt - contains the records that subjects act for every activity and every features(i.e. measurements)
-Y_train.txt - indicates the activities of records
-subject_train.txt - indicates the subjects of records
+*X_train.txt - contains the records that subjects act for every activity and every features(i.e. measurements)
+*Y_train.txt - indicates the activities of records
+*subject_train.txt - indicates the subjects of records
 
 Similarily, in folder test, three files are used to obtain data
-X_test.txt - contains the records that subjects act for every activity and every features(i.e. measurements)
-Y_test.txt - indicates the activities of records
-subject_test.txt - indicates the subjects of records
+*X_test.txt - contains the records that subjects act for every activity and every features(i.e. measurements)
+*Y_test.txt - indicates the activities of records
+*subject_test.txt - indicates the subjects of records
 
 Besides, two files are adopted to obtain information.
-features.txt - includes features' titles, which are integrated as column names for data in X_train.txt and X_test.txt.
-activity_labels.txt - indicates the association between activity names and numbers from Y_train.txt and Y_test.txt.
+*features.txt - includes features' titles, which are integrated as column names for data in X_train.txt and X_test.txt.
+*activity_labels.txt - indicates the association between activity names and numbers from Y_train.txt and Y_test.txt.
 
 ##VARIABLES
 
@@ -35,9 +35,10 @@ In data_merged, data_mean_std and data_activity_names, besides subjects and acti
 
 The followings are used in run_analysis.R. The sequence is arranged according to the first appearance.
 
-features - data.frame: 561 obs. of  2 variables
-	1st column: int, ordinal
-	2nd column: chr, feature names from "features.txt"
+###features
+*data.frame: 561 obs. of  2 variables
+*1st column: int, ordinal
+*2nd column: chr, feature names from "features.txt"
 	
 subject_train - data.frame: 7352 obs. of  1 variable
 	1st column(subjects): int, subject numbers from "subject_train.txt"
